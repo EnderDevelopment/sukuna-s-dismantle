@@ -1,0 +1,13 @@
+name: Slice
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  slice:
+    description: Gives you the Slice item.
+    usage: /slice
+    permission: slice.use
+permissions:
+  slice.use:
+    description: Allows use of the Slice item.
+    default: true
